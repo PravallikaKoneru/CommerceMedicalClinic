@@ -1,0 +1,294 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+
+.oleo-script-font-title {
+    font-family: 'Oleo Script', cursive;
+    font-weight: bolder;
+}
+
+.caveat-font-nav-item {
+    font-family: 'Caveat', cursive;
+    font-size: larger;
+}
+.courgette-font {
+    font-family: 'Courgette', cursive;
+   
+}
+
+.sriracha-font {
+    font-family: 'Sriracha', cursive;
+}
+
+.courgette-font-larger {
+    font-family: 'Courgette', cursive;
+    font-size: larger;
+}
+
+.btn {
+    z-index: 0;
+    position: relative;
+    font-family: Bw Nista Geometric,sans-serif,-apple-system,BlinkMacSystemFont;
+    display: inline-block;
+    color: #2b3534;
+    text-transform: uppercase;
+    letter-spacing: .375em;
+    font-size: .75rem;
+    padding: .75rem 1.5rem;
+    margin-top: .625rem;
+    margin-bottom: .625rem;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: inset 0 0 0 1px #2b3534
+}
+
+    .btn:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -10px;
+        height: 100%;
+        width: 0;
+        -webkit-transform: skew(-15deg);
+        -ms-transform: skew(-15deg);
+        transform: skew(-15deg);
+        background-color: #02646F;
+        transition: .5s ease;
+        z-index: -1
+    }
+
+    .btn:active, .btn:focus, .btn:hover {
+        color: #fff
+    }
+
+        .btn:active:after, .btn:focus:after, .btn:hover:after {
+            width: calc(100% + 10px);
+            -webkit-transform: skew(0);
+            -ms-transform: skew(0);
+            transform: skew(0)
+        }
+
+    .btn.is-ghost {
+        box-shadow: inset 0 0 0 1px #2b3534;
+        color: #2b3534
+    }
+
+        .btn.is-ghost:after {
+            background-color: #2b3534
+        }
+
+        .btn.is-ghost:active, .btn.is-ghost:focus, .btn.is-ghost:hover {
+            color: #fff
+        }
+
+    .btn.is-white {
+        box-shadow: inset 0 0 0 1px #fff;
+        color: #fff
+    }
+
+        .btn.is-white:after {
+            background-color: #fff
+        }
+
+        .btn.is-white:active, .btn.is-white:focus, .btn.is-white:hover {
+            color: #2b3534
+        }
+
+    .btn.is-dark {
+        border: 1px solid #2b3534;
+        color: #fff;
+        background-color: rgba(0,0,0,0)
+    }
+
+        .btn.is-dark:before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #2b3534;
+            z-index: -1
+        }
+
+        .btn.is-dark:after {
+            background-color: #fff
+        }
+
+        .btn.is-dark:active, .btn.is-dark:focus, .btn.is-dark:hover {
+            color: #2b3534
+        }
+
+.w-full {
+    width: -webkit-fill-available;
+}
+
+
+
+
+
+.footer-dark {
+    /*    padding: 50px 0;*/
+    color: #f0f9ff;
+    background-color: #02646F;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+    .footer-dark h3 {
+        margin-top: 0;
+        margin-bottom: 12px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .footer-dark ul {
+        padding: 0;
+        list-style: none;
+        line-height: 1.6;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+        .footer-dark ul a {
+            color: inherit;
+            text-decoration: none;
+            opacity: 0.6;
+        }
+
+            .footer-dark ul a:hover {
+                opacity: 0.8;
+            }
+
+@media (max-width:767px) {
+    .footer-dark .item:not(.social) {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
+
+.footer-dark .item.text {
+    margin-bottom: 36px;
+}
+
+@media (max-width:767px) {
+    .footer-dark .item.text {
+        margin-bottom: 0;
+    }
+}
+
+.footer-dark .item.text p {
+    opacity: 0.6;
+    margin-bottom: 0;
+}
+
+.footer-dark .item.social {
+    text-align: center;
+}
+
+@media (max-width:991px) {
+    .footer-dark .item.social {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.footer-dark .item.social > a {
+    font-size: 20px;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px rgba(255,255,255,0.4);
+    margin: 0 8px;
+    color: #fff;
+    opacity: 0.75;
+}
+
+    .footer-dark .item.social > a:hover {
+        opacity: 0.9;
+    }
+
+.footer-dark .copyright {
+    text-align: center;
+    padding-top: 24px;
+    opacity: 0.3;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+https://epicbootstrap.com/snippets/footer-dark
